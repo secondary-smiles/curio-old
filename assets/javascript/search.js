@@ -14,6 +14,7 @@ function validate() {
         changeWord(text.trim());
         item.value = "";
         noResults.style.display = "none";
+        word = text.trim();
     }
     else {
         noResults.style.display = "block";
