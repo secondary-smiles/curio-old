@@ -23,5 +23,5 @@ function random() {
 
 function changeWord(word) {
     wordObj = document.getElementById("article-body__object");
-    wordObj.data = "./words/" + word + ".html";
+    wordObj.data = "https://secondary-smiles.github.io/curio/words/" + word + ".html";
 }
