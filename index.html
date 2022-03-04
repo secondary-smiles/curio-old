@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <script src="./assets/data/wordlist.js" async></script>
+    <script src="./assets/javascript/script.js" async></script>
+    <script src="./assets/javascript/search.js" async></script>
+
+    <title>Curio</title>
+</head>
+
+<body>
+    <div class="all">
+        <div class="header">
+            <div class="header__navbar">
+                <hr width="60%">
+                <div class="header__navbar__inner">
+                    <div class="header__navbar__inner__desc">
+                        <p id="header__navbar__inner__header-text">The Curio</p>
+                        <p id="header__navbar__inner__desc-text">a collection of language</p>
+                    </div>
+                    <button id="header__navbar__inner-random" onclick={random();}>random</button>
+                    <button id="header__navbar__inner-search" onclick={searchOut();}>search</button>
+                    <div id="header__navbar__inner-input-parent">
+                        <input id="header__navbar__inner-input-parent-input" placeholder="Search">
+                        <p id="header__navbar__inner-input-parent-noresults">No Matches Found</p>
+                    </div>
+                </div>
+                <hr width="60%">
+            </div>
+        </div>
+
+        <div class="article-body">
+
+            <object id="article-body__object" style="width:100%;height:100%;" type="text/html"
+                data="PLACEHOLDER" />
+
+        </div>
+    </div>
+</body>
+
+</html>
