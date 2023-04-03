@@ -1,3 +1,5 @@
+# REPLACED BY `THE CURIO` (https://curio.lightblog.dev)
+
 # curio
 A collection of curios within and without language.
 
